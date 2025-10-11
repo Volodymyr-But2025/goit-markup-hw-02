@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", "Verdana", sans-serif;
+  font-weight: regular; /* Regular */
+  font-size: 16px;
+  line-height: 1.5; /* або 1.5, якщо хочеш відносну висоту */
+  letter-spacing: 0.02em; /* 2% */
+  color: #2a2a2a; /* можна замінити на конкретний колір, наприклад #333 */
+  background-color: #ffffff; /* білий фон */
+}
+.page-title {
+  font-weight: bold; /* Bold */
+  font-size: 56px;
+  line-height: 60px;
+}
+h2 {
+  font-weight: bold; /* Bold */
+  font-size: 36px;
+}
+h3 {
+  font-weight: medium; /* Medium */
+  font-size: 20px;
+}
