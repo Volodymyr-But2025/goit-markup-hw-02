@@ -1,22 +1,76 @@
 body {
   font-family: "Roboto", "Helvetica Neue", "Verdana", sans-serif;
-  font-weight: regular; /* Regular */
+  font-weight: 400; /* Regular */
   font-size: 16px;
   line-height: 1.5; /* або 1.5, якщо хочеш відносну висоту */
   letter-spacing: 0.02em; /* 2% */
-  color: #2a2a2a; /* можна замінити на конкретний колір, наприклад #333 */
+  color: #434455; /* можна замінити на конкретний колір, наприклад #333 */
   background-color: #ffffff; /* білий фон */
 }
+.titles {
+  font-weight: 700; /* Bold */
+  color: #2e2f42;
+}
 .page-title {
-  font-weight: bold; /* Bold */
   font-size: 56px;
   line-height: 60px;
+  color: #ffffff;
 }
-h2 {
-  font-weight: bold; /* Bold */
+.section-title {
   font-size: 36px;
 }
-h3 {
-  font-weight: medium; /* Medium */
+.post-titles {
+  font-weight: 500; /* Medium */
   font-size: 20px;
+}
+.btn {
+  font-weight: 500; /* Medium */
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+.lnk {
+  color: #2e2f42;
+}
+.lnk:hover {
+  color: #404bbf;
+}
+.lnk-studio:active {
+  text-decoration: underline;
+}
+.lnk-mail-phone {
+  color: #434455;
+}
+.lnk-mail-phone:hover,
+.lnk-mail-phone:focus {
+  color: #404bbf;
+}
+header {
+  background-color: #e7e9fc;
+}
+.section-title {
+  background-color: #2e2f42;
+}
+.section-our-values {
+  background-color: #ffffff;
+}
+.section-our-team {
+  background-color: #f4f4fd;
+}
+.section-our-team-post {
+  background-color: #ffffff;
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+.logo {
+  text-transform: uppercase;
+  color: #2e2f42;
 }
