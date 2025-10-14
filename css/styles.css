@@ -6,26 +6,43 @@ body {
   letter-spacing: 0.02em; /* 2% */
   color: #434455; /* можна замінити на конкретний колір, наприклад #333 */
   background-color: #ffffff; /* білий фон */
+  text-align: center;
 }
+
+/* Скидання відступів і полів для всіх елементів */
 ul li {
   list-style-type: none;
 }
-.titles {
+
+/* Заголовки */
+.section-hero h1 {
+  color: #ffffff;
+}
+h1,
+h2 {
   font-weight: 700; /* Bold */
   color: #2e2f42;
 }
-.page-title {
+h1 {
   font-size: 56px;
   line-height: 60px;
-  color: #ffffff;
 }
-.section-title {
+h2 {
   font-size: 36px;
 }
-.post-titles {
+h3 {
   font-weight: 500; /* Medium */
   font-size: 20px;
 }
+.section-our-values h2 {
+  color: #ffffff;
+}
+.section-our-portfolio h3,
+.section-our-portfolio p {
+  text-align: left;
+}
+
+/* Кнопки */
 .btn {
   font-weight: 500; /* Medium */
   letter-spacing: 0.04em;
@@ -37,13 +54,14 @@ ul li {
 .btn:focus {
   background-color: #404bbf;
 }
+
+/* Посилання */
 a {
   text-decoration: none;
-}
-.lnk {
   color: #2e2f42;
 }
-.lnk:hover {
+
+a:hover {
   color: #404bbf;
 }
 .lnk-studio:active {
@@ -56,11 +74,14 @@ a {
 .lnk-mail-phone:focus {
   color: #404bbf;
 }
+
+/* Фони секцій */
 header {
   background-color: #e7e9fc;
 }
-.section-title {
+.section-hero {
   background-color: #2e2f42;
+  color: #ffffff;
 }
 .section-our-values {
   background-color: #ffffff;
@@ -72,6 +93,7 @@ header {
   background-color: #ffffff;
 }
 
+/* Логотипи */
 .logo_header span {
   color: #4d5ae5;
 }
@@ -89,4 +111,8 @@ header {
 }
 .logo_footer span {
   color: #4d5ae5;
+}
+
+.section-our-portfolio li {
+  width: 264px;
 }
