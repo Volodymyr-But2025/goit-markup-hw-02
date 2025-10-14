@@ -1,17 +1,18 @@
 body {
-  font-family: "Roboto", "Helvetica Neue", "Verdana", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400; /* Regular */
   font-size: 16px;
   line-height: 1.5; /* або 1.5, якщо хочеш відносну висоту */
   letter-spacing: 0.02em; /* 2% */
   color: #434455; /* можна замінити на конкретний колір, наприклад #333 */
   background-color: #ffffff; /* білий фон */
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* Скидання відступів і полів для всіх елементів */
 ul li {
   list-style-type: none;
+  font-weight: 500;
 }
 
 /* Заголовки */
@@ -61,18 +62,23 @@ a {
   color: #2e2f42;
 }
 
-a:hover {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
-.lnk-studio:active {
+/*.link-studio:active {
   text-decoration: underline;
 }
+  */
 .lnk-mail-phone {
   color: #434455;
 }
 .lnk-mail-phone:hover,
 .lnk-mail-phone:focus {
   color: #404bbf;
+}
+.contacts {
+  font-style: normal;
 }
 
 /* Фони секцій */
@@ -92,27 +98,31 @@ header {
 .section-our-team-post {
   background-color: #ffffff;
 }
-
-/* Логотипи */
-.logo_header span {
-  color: #4d5ae5;
-}
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
+
+/* Логотипи */
+.logo_footer,
 .logo_header {
   text-transform: uppercase;
-  color: #2e2f42;
-}
-.logo_footer {
-  text-transform: uppercase;
-  color: #f4f4fd;
-}
-.logo_footer span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
 }
+.logo_header span {
+  color: #2e2f42;
+}
 
+.logo_footer span {
+  color: #f4f4fd;
+}
+
+/* Портфоліо */
 .section-our-portfolio li {
   width: 264px;
 }
