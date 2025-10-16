@@ -20,7 +20,8 @@ ul li {
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
-   text-align: center;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .section-our-team-title,
 .section-hero-title,
@@ -29,16 +30,26 @@ ul li {
   font-weight: 700; /* Bold */
   color: #2e2f42;
 }
-
+.section-our-portfolio-title{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 .section-our-values-title {
   font-size: 36px;
   color: #ffffff;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-h3 {
+.section-our-portfolio-post-title,
+.section-our-values-post-title {
   font-weight: 500; /* Medium */
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .section-our-team-title
 .section-our-portfolio-title {
@@ -47,7 +58,9 @@ h3 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-
+.section-our-portfolio-post-text{
+  font-size: 16px;
+}
 .section-our-portfolio h3,
 .section-our-portfolio p {
  /* text-align: left; */
