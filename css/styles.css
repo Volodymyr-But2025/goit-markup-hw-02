@@ -16,31 +16,41 @@ ul li {
 }
 
 /* Заголовки */
-.section-hero h1 {
+.section-hero-title {
   color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+   text-align: center;
 }
-h1,
-h2 {
+.section-our-team-title,
+.section-hero-title,
+.section-our-values-title
+.section-our-portfolio-title {
   font-weight: 700; /* Bold */
   color: #2e2f42;
 }
-h1 {
-  font-size: 56px;
-  line-height: 60px;
-}
-h2 {
+
+.section-our-values-title {
   font-size: 36px;
+  color: #ffffff;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 h3 {
   font-weight: 500; /* Medium */
   font-size: 20px;
 }
-.section-our-values h2 {
-  color: #ffffff;
+.section-our-team-title
+.section-our-portfolio-title {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
+
 .section-our-portfolio h3,
 .section-our-portfolio p {
-  text-align: left;
+ /* text-align: left; */
 }
 
 /* Кнопки */
@@ -50,6 +60,7 @@ h3 {
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
+   line-height: 1.5;
 }
 .btn:hover,
 .btn:focus {
@@ -124,5 +135,5 @@ header {
 
 /* Портфоліо */
 .section-our-portfolio li {
-  width: 264px;
+ /* width: 264px;  */
 }
