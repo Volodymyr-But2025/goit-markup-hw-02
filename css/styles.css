@@ -24,18 +24,17 @@ ul li {
   letter-spacing: 0.02em;
 }
 .section-our-team-title,
-.section-hero-title,
-.section-our-values-title
-.section-our-portfolio-title {
+.section-our-values-title .section-our-portfolio-title {
   font-weight: 700; /* Bold */
   color: #2e2f42;
 }
-.section-our-portfolio-title{
+.section-our-portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 .section-our-values-title {
   font-size: 36px;
@@ -43,6 +42,7 @@ ul li {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.section-our-team-post-title,
 .section-our-portfolio-post-title,
 .section-our-values-post-title {
   font-weight: 500; /* Medium */
@@ -51,19 +51,20 @@ ul li {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-our-team-title
+.section-our-team-title,
 .section-our-portfolio-title {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.section-our-portfolio-post-text{
+.section-our-portfolio-post-text,
+.section-our-team-post-text {
   font-size: 16px;
 }
 .section-our-portfolio h3,
 .section-our-portfolio p {
- /* text-align: left; */
+  /* text-align: left; */
 }
 
 /* Кнопки */
@@ -73,7 +74,7 @@ ul li {
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
-   line-height: 1.5;
+  line-height: 1.5;
 }
 .btn:hover,
 .btn:focus {
@@ -111,7 +112,6 @@ header {
 }
 .section-hero {
   background-color: #2e2f42;
-  color: #ffffff;
 }
 .section-our-values {
   background-color: #ffffff;
@@ -148,5 +148,5 @@ header {
 
 /* Портфоліо */
 .section-our-portfolio li {
- /* width: 264px;  */
+  /* width: 264px;  */
 }
