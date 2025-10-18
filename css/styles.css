@@ -62,11 +62,9 @@ ul li {
 .section-our-team-post-text {
   font-size: 16px;
 }
-.section-our-portfolio h3,
-.section-our-portfolio p {
-  /* text-align: left; */
+.section-our-team-title {
+  font-size: 36px;
 }
-
 /* Кнопки */
 .btn {
   font-weight: 500; /* Medium */
@@ -144,9 +142,4 @@ header {
 
 .logo_footer span {
   color: #f4f4fd;
-}
-
-/* Портфоліо */
-.section-our-portfolio li {
-  /* width: 264px;  */
 }
